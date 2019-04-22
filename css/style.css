@@ -41,7 +41,7 @@ aside .avator{
     width: 100%;
 }
 aside .avator img{
-    /* width: 180px; */
+    width: 180px;
     height: 180px;
     border-radius: 50%;
     border: 1px solid #ccc;
