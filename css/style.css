@@ -4,7 +4,6 @@ body{
     color: #666;
     background: #efefef;
 }
-/* ul{padding: 0;} */
 a{text-decoration: none;}
 .layout{
     max-width: 900px;
@@ -14,7 +13,6 @@ a{text-decoration: none;}
 }
 header{
     width: 100%;
-    /* height: 100px; */
     background: #3c3c3c;
     padding: 60px 0 10px 0;
     text-align: center;
@@ -119,5 +117,4 @@ main .school .item span+span{
         width: 100px;
         height: 100px;
     }
-
 }

@@ -1,0 +1,119 @@
+@media print {
+    body{
+        margin: 0;
+        font: 14px/1.5 Arial;
+        color: #666;
+        background: #fff;
+    }
+    a{text-decoration: none;}
+    .layout{
+        /* max-width: 900px; */
+        max-width: 23.85cm; 
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        /* width: 100%; */
+        width: 23.85cm; 
+        background: #3c3c3c;
+        /* padding: 60px 0 10px 0; */
+        padding: 1.587cm 0 0.265cm 0;
+        text-align: center;
+        color: #fff;
+    }
+    header>h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    header>p{
+        font-size: 18px;
+        color: #aaa;
+        margin: 0;
+    }
+    aside{
+        /* width: 240px; */
+        width: 6.36cm;
+        background: #fff;
+        border-right: 1px solid #ccc;
+        position: relative;
+        /* padding-top: 100px; */
+        padding-top: 2.65cm;
+    }
+    aside .avator{
+        text-align: center;
+        position: absolute;
+        /* top: -80px; */
+        top: -2.12cm;
+        width: 100%;
+    }
+    aside .avator img{
+        /* width: 180px; */
+        /* height: 180px; */
+        width: 4.762cm;
+        height: 4.762cm;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        background: #ccc;
+    }
+    section{
+        border-bottom: 0.053cm solid #ccc;
+        /* margin: 30px 20px 0 20px;
+        padding-bottom: 20px; */
+        margin: 0.79cm 0.53cm 0 0.53cm;
+        padding-bottom: 0.53cm;
+    }
+    section h2{
+        color: #5c99ca;
+        font-size: 16px;
+    }
+    .personal .item span:first-child{
+        display: inline-block;
+        /* width: 68px; */
+        width: 1.802cm;
+    }
+    .personal .item span:last-child::before{
+        content: ":";
+        margin-right: 0.265cm;
+    }
+    .skills .item{
+        display: flex;
+        align-items: center;
+    }
+    .skills .keyword{
+        /* width: 80px; */
+        width: 2.12cm;
+    }
+    .skills .rule{
+        flex: 1;
+        height: 0.11cm;
+        background: #ccc;
+    }
+    .skills .rule i{
+        display: block;
+        width: 10%;
+        height: 0.11cm;
+        background: #000;
+    }
+
+    .contact .item{
+        display: flex;
+        align-items: center;
+    }
+    .contact svg{
+        width: 0.66cm;
+        height: 0.66cm;
+    }
+    .contact .item span{
+        margin-left: 0.265cm;
+    }
+
+    main{
+        flex: 1;
+        min-height: calc(100vh - 100px);
+        background: #fff;
+    }
+    main .school .item span+span{
+        margin-left: 2.4cm;
+    }
+}
