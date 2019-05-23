@@ -58,13 +58,11 @@ section{
     padding-bottom: 20px;
 }
 section h2{
-    /* color: #5c99ca; */
     font-size: 22px;
     color: #007bff;
 }
 .personal .item span:first-child{
     display: inline-block;
-    width: 88px;
     width: 68px;
 }
 .personal .item span:last-child::before{
@@ -74,7 +72,6 @@ section h2{
 .skills .item{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 .skills .keyword{
     padding-top: 5px;
