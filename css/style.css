@@ -101,6 +101,9 @@ section h2{
 .contact .item span{
     margin-left: 10px;
 }
+.evaluation{
+    margin-top: 20px;
+}
 
 main{
     flex: 1;

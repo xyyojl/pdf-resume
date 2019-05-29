@@ -110,6 +110,9 @@
     .contact .item span{
         margin-left: 0.265cm;
     }
+    .evaluation h2{
+        margin-top: 0.53cm;
+    }
 
     main{
         flex: 1;
