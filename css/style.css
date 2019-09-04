@@ -54,12 +54,14 @@ aside .avator img{
 }
 section{
     border-bottom: 2px solid #ccc;
-    margin: 30px 20px 0 20px;
+    margin: 15px 20px 0 20px;
     padding-bottom: 20px;
 }
 section h2{
     font-size: 22px;
     color: #007bff;
+    margin: 0;
+    margin-bottom: 12px;
 }
 .personal .item span:first-child{
     display: inline-block;
@@ -101,7 +103,8 @@ section h2{
 .contact .item span{
     margin-left: 10px;
 }
-.evaluation{
+section.evaluation{
+    border-bottom: none;
     margin-top: 20px;
 }
 
@@ -110,11 +113,17 @@ main{
     min-height: calc(100vh - 100px);
     background: #fff;
 }
+main section{
+    padding-bottom: 10px;
+}
 main .school .item span+span{
     margin-left: 130px;
 }
 main section.skills-detail ul{
     line-height: 24px;
+}
+main .project h2{
+    margin-bottom: 24px;
 }
 @media(max-width:768px){
     header{
